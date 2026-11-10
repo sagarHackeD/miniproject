@@ -1,0 +1,498 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c212998c-9ef3-4763-b506-10351702cd40")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 142.24 95.25) (xy 154.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202826ec-46f6-4632-8c12-7e8d3a95830a")
+	)
+	(wire
+		(pts
+			(xy 142.24 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289a8f37-7123-4140-a237-c46afff58072")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 154.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f72ddff-3850-4f2d-8dc9-ada619a5b6da")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 101.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a58520-e118-43e5-b603-3c34682b213e")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76084631-352a-4163-bf6e-8459ac3bf5a5")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948b0a38-0c10-49e4-b561-eb2bb470eb18")
+	)
+	(wire
+		(pts
+			(xy 142.24 102.87) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d134d7-8487-4d4e-beaa-a8e79718ec97")
+	)
+	(wire
+		(pts
+			(xy 142.24 66.04) (xy 154.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b930f909-c66a-4391-b16e-ccb3580e3738")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 154.94 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a6cccb-1939-498e-8df9-f8339592e20f")
+	)
+	(wire
+		(pts
+			(xy 142.24 110.49) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86c4800-27e7-4076-84c5-66956ab7f800")
+	)
+	(sheet
+		(at 154.94 63.5)
+		(size 29.21 18.415)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8cf9a4e5-9724-46c8-a9f9-77e7988c0228")
+		(property "Sheetname" "USRInterface"
+			(at 154.94 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USRInterface.kicad_sch"
+			(at 154.94 82.4996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUZZER" input
+			(at 154.94 73.66 180)
+			(uuid "8f9aa2fe-7c8c-4240-a38f-24e0351d3c4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OLED_SCL" input
+			(at 154.94 69.85 180)
+			(uuid "9958b298-0b40-4002-ab7b-d96347bab984")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OLED_SDA" input
+			(at 154.94 66.04 180)
+			(uuid "95b3e1b9-60ca-4d35-8f5c-887c952b3e12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUTTON" input
+			(at 154.94 77.47 180)
+			(uuid "1cf3ee1d-5091-4a25-aabd-b65d52bf2496")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/c212998c-9ef3-4763-b506-10351702cd40"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.025 63.5)
+		(size 18.415 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c263a350-9420-49ac-bfa8-162f06b6d68d")
+		(property "Sheetname" "PowerSupply"
+			(at 73.025 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 73.025 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT_VOLTAGE" input
+			(at 91.44 66.04 0)
+			(uuid "5843396f-cce5-4dd8-a89d-5b554825e65c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/c212998c-9ef3-4763-b506-10351702cd40"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 63.5)
+		(size 40.64 51.435)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d8c0358d-709a-4907-a4bc-9b43bb3f1f68")
+		(property "Sheetname" "Microcontroller"
+			(at 101.6 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 101.6 115.5196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT_VOLTAGE" input
+			(at 101.6 66.04 180)
+			(uuid "81e8169a-b16a-40ac-b82d-57d82f42163c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER" input
+			(at 142.24 73.66 0)
+			(uuid "c23f9b12-f130-459f-a03a-3f99d5f8ebc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OLED_SCL" input
+			(at 142.24 69.85 0)
+			(uuid "fb575409-d0cc-4e1a-a654-fa114dd2fdc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OLED_SDA" input
+			(at 142.24 66.04 0)
+			(uuid "c8087bf8-a003-4e27-9ddd-05018e26402a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RC_MISO" input
+			(at 142.24 106.68 0)
+			(uuid "b3b28827-802e-4913-adfd-98ded17156ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RC_MOSI" input
+			(at 142.24 102.87 0)
+			(uuid "a092c2f0-fb54-4d17-95b9-6d3063ae714c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RC_RST" input
+			(at 142.24 110.49 0)
+			(uuid "ee0f16f1-7635-4c21-9e27-0d622ca71e84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RC_SCK" input
+			(at 142.24 99.06 0)
+			(uuid "012d1fe9-1ae6-4a93-ad1c-7443897fd962")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RC_SDA" input
+			(at 142.24 95.25 0)
+			(uuid "92c0be56-9642-42a5-af39-11eb54a018c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUTTON" input
+			(at 142.24 77.47 0)
+			(uuid "80b5efd6-44cd-48c6-b901-60bbd9696a68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/c212998c-9ef3-4763-b506-10351702cd40"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 91.44)
+		(size 29.21 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d9b67696-5684-4260-8695-ff935d90a12f")
+		(property "Sheetname" "RFIDScanner"
+			(at 154.94 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RFIDScanner.kicad_sch"
+			(at 154.94 115.5196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RC_MISO" input
+			(at 154.94 106.68 180)
+			(uuid "64987fdb-cbd7-4a8a-b381-1720297e8b8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RC_MOSI" input
+			(at 154.94 102.87 180)
+			(uuid "d0cdde4e-c3a6-4f0d-b9c3-94f93051c022")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RC_RST" input
+			(at 154.94 110.49 180)
+			(uuid "3fd84a48-a78b-4ea7-873a-fc825a8be347")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RC_SCK" input
+			(at 154.94 99.06 180)
+			(uuid "c6161e52-25c3-4412-963d-25cec050fc3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RC_SDA" input
+			(at 154.94 95.25 180)
+			(uuid "63d424cb-da43-4491-99ee-fb1580093f27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/c212998c-9ef3-4763-b506-10351702cd40"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

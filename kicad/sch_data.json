@@ -1,0 +1,281 @@
+[
+    {
+        "sheet_name": "Main Sheet",
+        "sheet_path": "C:\\Users\\ECHS\\Desktop\\Engineering_College_CS\\3rd Year\\Sem_5\\mini_project\\RFID based attendence\\kicad\\kicad.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [],
+        "sheet_files": [
+            {
+                "sheet_name": "USRInterface",
+                "sheet_file": "USRInterface.kicad_sch",
+                "sheet_path": "C:\\Users\\ECHS\\Desktop\\Engineering_College_CS\\3rd Year\\Sem_5\\mini_project\\RFID based attendence\\kicad\\USRInterface.kicad_sch",
+                "x_position": 154.94,
+                "y_position": 82.4996,
+                "rotation": 0
+            },
+            {
+                "sheet_name": "PowerSupply",
+                "sheet_file": "PowerSupply.kicad_sch",
+                "sheet_path": "C:\\Users\\ECHS\\Desktop\\Engineering_College_CS\\3rd Year\\Sem_5\\mini_project\\RFID based attendence\\kicad\\PowerSupply.kicad_sch",
+                "x_position": 73.025,
+                "y_position": 84.4046,
+                "rotation": 0
+            },
+            {
+                "sheet_name": "Microcontroller",
+                "sheet_file": "Microcontroller.kicad_sch",
+                "sheet_path": "C:\\Users\\ECHS\\Desktop\\Engineering_College_CS\\3rd Year\\Sem_5\\mini_project\\RFID based attendence\\kicad\\Microcontroller.kicad_sch",
+                "x_position": 101.6,
+                "y_position": 115.5196,
+                "rotation": 0
+            },
+            {
+                "sheet_name": "RFIDScanner",
+                "sheet_file": "RFIDScanner.kicad_sch",
+                "sheet_path": "C:\\Users\\ECHS\\Desktop\\Engineering_College_CS\\3rd Year\\Sem_5\\mini_project\\RFID based attendence\\kicad\\RFIDScanner.kicad_sch",
+                "x_position": 154.94,
+                "y_position": 115.5196,
+                "rotation": 0
+            }
+        ]
+    },
+    {
+        "sheet_name": "USRInterface",
+        "sheet_path": "C:\\Users\\ECHS\\Desktop\\Engineering_College_CS\\3rd Year\\Sem_5\\mini_project\\RFID based attendence\\kicad\\USRInterface.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "#PWR01",
+                "x_position": 124.46,
+                "y_position": 121.92,
+                "rotation": 0
+            },
+            {
+                "reference": "SW3",
+                "x_position": 115.57,
+                "y_position": 115.57,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR05",
+                "x_position": 189.23,
+                "y_position": 90.17,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR09",
+                "x_position": 119.38,
+                "y_position": 66.04,
+                "rotation": 0
+            },
+            {
+                "reference": "J1",
+                "x_position": 128.27,
+                "y_position": 76.2,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR010",
+                "x_position": 189.23,
+                "y_position": 57.15,
+                "rotation": 0
+            },
+            {
+                "reference": "BZ1",
+                "x_position": 182.88,
+                "y_position": 67.31,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR04",
+                "x_position": 123.19,
+                "y_position": 87.63,
+                "rotation": 0
+            },
+            {
+                "reference": "Q1",
+                "x_position": 186.69,
+                "y_position": 78.74,
+                "rotation": 0
+            },
+            {
+                "reference": "R1",
+                "x_position": 173.99,
+                "y_position": 78.74,
+                "rotation": 90
+            }
+        ],
+        "sheet_files": []
+    },
+    {
+        "sheet_name": "PowerSupply",
+        "sheet_path": "C:\\Users\\ECHS\\Desktop\\Engineering_College_CS\\3rd Year\\Sem_5\\mini_project\\RFID based attendence\\kicad\\PowerSupply.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "H3",
+                "x_position": 149.86,
+                "y_position": 184.15,
+                "rotation": 0
+            },
+            {
+                "reference": "J4",
+                "x_position": 64.77,
+                "y_position": 88.9,
+                "rotation": 0
+            },
+            {
+                "reference": "H1",
+                "x_position": 149.86,
+                "y_position": 172.72,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR06",
+                "x_position": 200.66,
+                "y_position": 97.79,
+                "rotation": 0
+            },
+            {
+                "reference": "BT1",
+                "x_position": 200.66,
+                "y_position": 86.36,
+                "rotation": 0
+            },
+            {
+                "reference": "U2",
+                "x_position": 153.67,
+                "y_position": 80.01,
+                "rotation": 0
+            },
+            {
+                "reference": "J7",
+                "x_position": 40.64,
+                "y_position": 92.71,
+                "rotation": 0
+            },
+            {
+                "reference": "J8",
+                "x_position": 64.77,
+                "y_position": 81.28,
+                "rotation": 0
+            },
+            {
+                "reference": "J3",
+                "x_position": 64.77,
+                "y_position": 77.47,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR02",
+                "x_position": 153.67,
+                "y_position": 93.98,
+                "rotation": 0
+            },
+            {
+                "reference": "J5",
+                "x_position": 64.77,
+                "y_position": 92.71,
+                "rotation": 0
+            },
+            {
+                "reference": "J6",
+                "x_position": 40.64,
+                "y_position": 77.47,
+                "rotation": 0
+            },
+            {
+                "reference": "H4",
+                "x_position": 149.86,
+                "y_position": 191.77,
+                "rotation": 0
+            },
+            {
+                "reference": "H2",
+                "x_position": 149.86,
+                "y_position": 179.07,
+                "rotation": 0
+            }
+        ],
+        "sheet_files": []
+    },
+    {
+        "sheet_name": "Microcontroller",
+        "sheet_path": "C:\\Users\\ECHS\\Desktop\\Engineering_College_CS\\3rd Year\\Sem_5\\mini_project\\RFID based attendence\\kicad\\Microcontroller.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "#PWR08",
+                "x_position": 138.43,
+                "y_position": 73.66,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR03",
+                "x_position": 135.89,
+                "y_position": 124.46,
+                "rotation": 0
+            },
+            {
+                "reference": "U1",
+                "x_position": 135.89,
+                "y_position": 99.06,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR07",
+                "x_position": 133.35,
+                "y_position": 73.66,
+                "rotation": 0
+            },
+            {
+                "reference": "X1",
+                "x_position": 200.66,
+                "y_position": 95.25,
+                "rotation": 0
+            }
+        ],
+        "sheet_files": []
+    },
+    {
+        "sheet_name": "RFIDScanner",
+        "sheet_path": "C:\\Users\\ECHS\\Desktop\\Engineering_College_CS\\3rd Year\\Sem_5\\mini_project\\RFID based attendence\\kicad\\RFIDScanner.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "#PWR011",
+                "x_position": 137.16,
+                "y_position": 97.79,
+                "rotation": 270
+            },
+            {
+                "reference": "#PWR012",
+                "x_position": 137.16,
+                "y_position": 102.87,
+                "rotation": 90
+            },
+            {
+                "reference": "J2",
+                "x_position": 148.59,
+                "y_position": 92.71,
+                "rotation": 0
+            }
+        ],
+        "sheet_files": []
+    }
+]
