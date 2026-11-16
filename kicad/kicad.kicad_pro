@@ -195,6 +195,7 @@
       ],
       "track_widths": [
         0.0,
+        0.75,
         1.0,
         1.5
       ],
@@ -651,7 +652,7 @@
         "uuid": "c212998c-9ef3-4763-b506-10351702cd40"
       }
     ],
-    "used_designators": "",
+    "used_designators": "DS1-2",
     "variants": []
   },
   "sheets": [
